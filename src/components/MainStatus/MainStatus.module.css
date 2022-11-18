@@ -1,0 +1,24 @@
+.mainContainer {
+  border: 1px solid;
+  padding: 0 1rem;
+}
+
+.mainHeader {
+  margin: 2rem 0;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: var(--DM-font);
+  line-height: 2.603rem;
+  color: var(--text-color);
+}
+
+.text {
+  margin-top: 9px;
+  font-family: var(--Inter);
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--greyScale300);
+}
