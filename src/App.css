@@ -5,5 +5,7 @@
   --text-color: #0b303e;
   --greyScale300: #5a5a5a;
   --greyScale400: #393939;
-  --greyScale500: #303030;;
+  --greyScale500: #303030;
+  --DM-font: 'DM Sans', sans-serif;
+  --Inter: 'Inter', sans-serif;;
 }
