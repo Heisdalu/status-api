@@ -1,4 +1,3 @@
-import "./App.css";
 import StatusPage from "./pages/StatusPage";
 
 function App() {

@@ -1,0 +1,25 @@
+.header {
+  border: 1px solid var(--greyScale100);
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+}
+.headerLink {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+
+.status {
+  font-size: 25px;
+  border-left: 1px solid;
+  font-family: var(--DM-font);
+  font-weight: 500;
+  color: var(--greyScale400);
+  padding-left: 15px;
+}
+
+.grittyImg {
+  height: 30px;
+}
