@@ -1,6 +1,11 @@
+import StatusHeader from "../components/Header/StatusHeader";
 
 const HomePage = () => {
-  return <div>hello word</div>;
+  return (
+    <div>
+      <StatusHeader />
+    </div>
+  );
 };
 
 export default HomePage;
