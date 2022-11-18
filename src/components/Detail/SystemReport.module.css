@@ -41,8 +41,8 @@
 @media screen and (min-width: 600px) {
   .systemReport {
     display: flex;
+    padding: 1.5rem 1rem;
   }
-
 
   .systemTitle {
     font-size: 1.125rem;
