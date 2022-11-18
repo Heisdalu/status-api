@@ -10,7 +10,7 @@
 
 .systemTitle {
   grid-area: 1/1/1/2;
-  font-size: 1.1rem;
+  font-size: 1rem;
   font-family: var(--Inter);
   font-weight: 500;
 }
@@ -36,4 +36,21 @@
 
 .Warning {
   color: var(--warning);
+}
+
+@media screen and (min-width: 600px) {
+  .systemReport {
+    display: flex;
+  }
+
+
+  .systemTitle {
+    font-size: 1.125rem;
+  }
+
+  .systemStatus {
+    font-size: 1rem;
+    margin-left: auto;
+    margin-right: 8px;
+  }
 }

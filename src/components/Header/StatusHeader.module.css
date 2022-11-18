@@ -1,5 +1,5 @@
 .header {
-  border: 1px solid var(--greyScale100);
+  border-bottom: 1px solid var(--greyScale100);
   padding: 2rem 1rem;
   display: flex;
   align-items: center;
@@ -9,7 +9,6 @@
   align-items: center;
   text-decoration: none;
 }
-
 
 .status {
   font-size: 25px;
@@ -22,4 +21,14 @@
 
 .grittyImg {
   height: 30px;
+}
+
+@media screen and (min-width: 600px) {
+  .grittyImg {
+    height: 40px;
+  }
+
+  .header {
+    padding: 1.5rem 2rem;
+  }
 }

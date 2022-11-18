@@ -22,3 +22,31 @@
   font-weight: 400;
   color: var(--greyScale300);
 }
+
+@media screen and (min-width: 600px) {
+  .mainHeader {
+    margin: 5rem;
+    margin-bottom: 2.5rem;
+  }
+  .title {
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: auto;
+  }
+
+  .text {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 1.25rem;
+  }
+
+  .header {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .title {
+    font-size: 3rem;
+  }
+}
