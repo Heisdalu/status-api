@@ -1,0 +1,15 @@
+import { SUCCESS, WARNING, FAILED } from "./statusTypes";
+
+export const ValidateStatus = (value) => {
+  switch (value) {
+    case SUCCESS:
+      return "Operational";
+      break;
+    case WARNING:
+      return "Warning";
+      break;
+    case FAILED:
+      return "Outage";
+      break;
+  }
+};

@@ -1,28 +1,35 @@
 import { SUCCESS, WARNING, FAILED } from "./statusTypes";
+import { ValidateStatus } from "./ValidateStatus";
 
 export const report = [
   {
     title: "Testing/swagger GUI",
-    status: SUCCESS,
+    status: ValidateStatus(SUCCESS),
+    statusLogo: SUCCESS,
   },
   {
     title: "Login/SSO",
-    status: SUCCESS,
+    status: ValidateStatus(SUCCESS),
+    statusLogo: SUCCESS,
   },
   {
     title: "Audio to whisper script",
-    status: FAILED,
+    status: ValidateStatus(FAILED),
+    statusLogo: FAILED,
   },
   {
     title: "Audio Transcribing",
-    status: SUCCESS,
+    status: ValidateStatus(SUCCESS),
+    statusLogo: SUCCESS,
   },
   {
     title: "Reset & forgotten password",
-    status: WARNING,
+    status: ValidateStatus(WARNING),
+    statusLogo: WARNING,
   },
   {
     title: "Notifications",
-    status: FAILED,
+    status: ValidateStatus(FAILED),
+    statusLogo: FAILED,
   },
 ];

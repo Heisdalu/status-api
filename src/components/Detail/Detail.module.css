@@ -1,0 +1,11 @@
+.detail {
+  margin: 2rem 0 5rem 0;
+}
+
+.detailHeader {
+  padding: 1.5rem 1rem;
+  font-size: 1.25rem;
+  background-color: #eeeeee;
+  font-family: var(--Inter);
+  font-weight: 500;
+}

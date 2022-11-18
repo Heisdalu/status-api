@@ -1,3 +1,4 @@
+import Detail from "../Detail/Detail";
 import style from "./MainStatus.module.css";
 
 const MainStatus = () => {
@@ -11,9 +12,7 @@ const MainStatus = () => {
           </p>
         </div>
 
-              <div className={style.mainDetail}>
-                  
-        </div>
+        <Detail />
       </main>
     </div>
   );
