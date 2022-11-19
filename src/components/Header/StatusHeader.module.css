@@ -3,6 +3,10 @@
   padding: 1.5rem 1rem;
   display: flex;
   align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #ffffff;
 }
 .headerLink {
   display: flex;
